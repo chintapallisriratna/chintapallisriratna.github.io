@@ -45,7 +45,7 @@ Create playlists, control playback, adjust volume, and enjoy visualizations with
 repeat and shuffle modes for a personalized listening experience. <br />
 > <a href="https://shorturl.at/n4jKk" target="_blank">View Project</a
 ><br /><br />
-<strong>More projects are on the way...</strong><br /><br /><br />
+<strong>For more projects, please visit my GitHub profile by clicking on the link provided in the "Connect" section below.</strong><br /><br /><br />
 
 <strong class="h">What’s Next?</strong><br />
 The world of technology is boundless, and so is my vision. And that is, to be
