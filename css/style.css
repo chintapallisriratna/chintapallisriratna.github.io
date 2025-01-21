@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Poppins", serif; */
+    /* font-family: "Libre Baskerville", serif; */
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+    background: black;
+    color: green;
+}
+
+body > div {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body > div > div {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    opacity: 0.5;
+}
+
+body,
+a {
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+div.ic::after {
+    content: "🐢_";
+    display: inline-block;
+    transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 768px) {
+    div.ic {
+        font-size: 14pt;
+    }
+
+    body {
+        padding: 50px 24px;
+    }
+
+    body > div {
+        width: 100%;
+    }
+
+    strong.g {
+        font-size: 1.5em;
+    }
+
+    strong.h {
+        font-size: 1.17em;
+    }
+
+    strong.sh {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body > div {
+        width: 80%;
+    }
+
+    div.ic {
+        font-size: 16pt;
+    }
+
+    strong.g {
+        font-size: 1.8em;
+    }
+
+    strong.h {
+        font-size: 1.2em;
+    }
+
+    strong.sh {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body > div {
+        width: 60%;
+    }
+
+    div.ic {
+        font-size: 16pt;
+    }
+
+    strong.g {
+        font-size: 2em;
+    }
+
+    strong.h {
+        font-size: 1.5em;
+    }
+
+    strong.sh {
+        font-size: 1.12em;
+    }
+}
